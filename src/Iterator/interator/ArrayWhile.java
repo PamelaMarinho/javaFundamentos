@@ -1,4 +1,4 @@
-package JavaFundamentos.Interator;
+package Iterator.interator;
 
 public class ArrayWhile {
     public static void main(String[] args) {

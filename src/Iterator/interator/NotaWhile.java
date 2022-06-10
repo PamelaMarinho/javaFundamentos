@@ -1,4 +1,4 @@
-package JavaFundamentos.Interator;
+package Iterator.interator;
 
 import java.util.Scanner;
 
