@@ -7,25 +7,26 @@ public class aula7switchCase {
 
         Scanner scan = new Scanner(System.in);
 
+        System.out.println("Qual dia da semana?");
         int dia = scan.nextInt();
 
-        String semana = "";
         switch (dia) {
-            case (1): semana = "domingo";
+            case (1): System.out.println("domingo");
                 break;
-            case (2): semana = "segunda";
+            case (2): System.out.println("segunda");
                 break;
-            case (3): semana = "terça";
+            case (3): System.out.println("terça");
                 break;
-            case (4): semana = "quarta";
+            case (4): System.out.println("quarta");
                 break;
-            case (5): semana = "quinta";
+            case (5): System.out.println("quinta");
                 break;
-            case (6): semana = "sexta";
+            case (6): System.out.println("sexta");
                 break;
-            case (7): semana = "sábado";
+            case (7): System.out.println("sábado");
                 break;
+            default: System.out.println("dia incorreto");
         }
-        System.out.println(semana);
+
     }
 }
