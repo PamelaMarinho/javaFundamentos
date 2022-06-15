@@ -2,7 +2,7 @@ package javafundamentos;
 
 import java.util.Scanner;
 
-public class aula5IfElse {
+public class Aula13IfElse {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

@@ -2,7 +2,7 @@ package javafundamentos;
 
 import java.util.Scanner;
 
-public class aula7switchCase {
+public class Aula14switchCase {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

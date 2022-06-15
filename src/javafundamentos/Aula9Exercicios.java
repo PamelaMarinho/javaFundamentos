@@ -17,7 +17,7 @@ public class Aula9Exercicios {
         }
 
         //senha e nome de user
-        /*System.out.println("Informe a senha e nome");
+        System.out.println("Informe a senha e nome");
         String senha = scan.next();
         String nome = scan.next();
 
@@ -26,10 +26,10 @@ public class Aula9Exercicios {
             System.out.println("Informe novamente");
             senha = scan.next();
             nome = scan.next();
-        }*/
+        }
 
-      /*  System.out.println("Informe seu nome");
-        String nome = scan.next();
+         System.out.println("Informe seu nome");
+        String nome2 = scan.next();
         System.out.println("Informe sua idade");
         int idade = scan.nextInt();
         System.out.println("Informe seu salário");
@@ -62,7 +62,7 @@ public class Aula9Exercicios {
         while(civil != "C" || civil != "V" || civil != "S" || civil != "D"){
             System.out.println("Informe seu estado civil S, C, D ou V");
             civil = scan.next();
-        }*/
+        }
 
 
 
