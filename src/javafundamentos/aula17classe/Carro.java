@@ -1,4 +1,4 @@
-package javafundamentos.Aula17Classe;
+package javafundamentos.aula17classe;
 
 public class Carro {
 
@@ -20,6 +20,10 @@ public class Carro {
         //método com parâmetro
         double consumoCombustível(int kmRodados){
                 return (kmRodados * consumoCombustível);
+        }
+
+        public static void estado(){
+                System.out.println("método static");
         }
 
 }

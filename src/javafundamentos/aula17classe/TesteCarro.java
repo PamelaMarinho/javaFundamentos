@@ -1,4 +1,4 @@
-package javafundamentos.Aula17Classe;
+package javafundamentos.aula17classe;
 
 public class TesteCarro {
     public static void main(String[] args) {
@@ -13,5 +13,7 @@ public class TesteCarro {
 
         double total = car.consumoCombustível(56);
         System.out.println("Km rodados: " + total);
+
+
     }
 }

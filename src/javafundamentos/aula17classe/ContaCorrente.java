@@ -1,11 +1,17 @@
-package javafundamentos.Aula17Classe;
+package javafundamentos.aula17classe;
 
 public class ContaCorrente {
 
+    int agencia;
     double saldo;
     double especial;
 
-    void sacar(double saque){
+    public ContaCorrente(int agencia) {
+        this.agencia = agencia;
+        System.out.println("classe conta corrente instânciada");
+    }
+
+    void sacar(double saque) {
         if(saque <= saldo ){
             saldo -= saque;
             System.out.println("Saque de R$" + saque + " realizado com Sucesso");
@@ -21,17 +27,17 @@ public class ContaCorrente {
         }
     }
 
-    void depositar(double deposito){
+    protected void depositar(double deposito){
         saldo += deposito;
         System.out.println("Depósito de R$" + deposito + " realizado com Sucesso");
         imprimirSaldo();
     }
 
-    void sacarEspecial(){
+    private void sacarEspecial(){
         especial += saldo;
     }
 
-    void imprimirSaldo(){
+    public void imprimirSaldo(){
         System.out.println("Saldo: " + saldo);
         System.out.println("Cheque especial: " + especial + "\n");
     }
