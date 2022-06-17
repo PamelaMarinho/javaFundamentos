@@ -18,4 +18,6 @@ public class Aluno extends Pessoa {
         System.out.println(getOcupacao());
         System.out.println(getEscolaridade());
     }
+
+    static void defaull(){}
 }
