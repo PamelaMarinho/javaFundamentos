@@ -1,4 +1,4 @@
-package javafundamentos.aula22exercicios22_26;
+package javafundamentos.aula22exercicios22_26.contacorrente;
 
 public class Teste {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package javafundamentos.aula22exercicios22_26;
+package javafundamentos.aula22exercicios22_26.contacorrente;
 
 public class ContaPoupanca  extends ContaBancaria{
 
