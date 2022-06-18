@@ -9,7 +9,7 @@ public class CriandoException {
             for(int i = 0; i < vet.length; i ++){
                 try{
                     if( vet[i] % 2 != 0 ){
-                        throw new Exception("Número não é divisível por 2");
+                        throw new Divisivel(vet[i], index[i]);
                     }
                     double result = vet[i] / index[i];
                     vet[i+1]=i+8;
@@ -21,3 +21,6 @@ public class CriandoException {
         }
     }
 }
+
+
+// criar uma classe que extends exception e criar a própria exception
