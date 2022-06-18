@@ -1,0 +1,7 @@
+object > throwable > Error, Exception(checked:IOException, SQLException / unchecked: RunTimeException(
+    Arrayindexoutofboundsexception, nullPointerException, ArithmeticException)
+))
+
+error( unchecked ): ocorre em tempo de execução e interrompe o programa - não da para tratar error
+
+Exception:
