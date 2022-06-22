@@ -1,6 +1,7 @@
 package javafundamentos.aula53Enum.EnumComoClasse;
 
 public enum EnumComoClasse {
+
     SABADO(1), DOMINGO(2);
 
     private int valor;
