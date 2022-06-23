@@ -1,4 +1,4 @@
-package javafundamentos.autoboxingUnboxing;
+package javafundamentos.aula55autoboxingUnboxing;
 
 public class autoboxing {
     public static void main(String[] args) {

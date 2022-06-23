@@ -1,4 +1,4 @@
-package javafundamentos.wrappers;
+package javafundamentos.aula54wrappers;
 
 public class Wrappers {
     public static void main(String[] args) {
