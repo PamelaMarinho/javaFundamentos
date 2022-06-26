@@ -12,6 +12,7 @@ public class Printf {
         System.out.printf("%f", pontoFlutuante); //3,145679
         System.out.printf("%.3f", pontoFlutuante); //3,146
         System.out.printf("R$%10.2f", pontoFlutuante); //R$      3,15
+        //System.out.println("R$%,10.2f", pontoFlutuante);
 
         int num = 1234586;
         System.out.printf("% d", num); // 1234586 (espaço antes)
